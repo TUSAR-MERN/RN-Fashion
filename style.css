@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.headerBg{
+    background-color: #4D4D4F;
+}
+
+.topHead .topHeadLight p{
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.topHead .topHeadLight p span{
+    text-shadow: 0px 1px 1px #0089ff;
+    cursor: pointer;
+}
+
+.topHead .topHeadRight ul{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.topHead .topHeadRight ul li{
+    display: inline-block;
+}
+
+.topHead .topHeadRight ul li a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 12px;
+    border-right: 1px solid #fff;
+}
+
+
+
+.topHead .topHeadRight ul li:last-child a{
+    border-right: 0;
+}
+
+/* End Top Head Area */
+
+.navBorder{
+    box-shadow: 0 1px 4px 0px #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+.topNavD .logoRelate img{
+    width: 80%;
+}
+
+.topNavD .searchSec input[type='text']{
+    margin-top: 12px;
+}
+
+.topNavD .acountSec ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+
+.topNavD .acountSec ul li{
+    display: inline-block;
+}
+
+.topNavD .acountSec ul li:first-child a i{
+    padding: 5px;
+    background-color: #e0e0e0;
+}
+
+.topNavD .acountSec ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #55a7ff;
+}
+
+.topNavD .acountSec ul li a i{
+    font-size: 12px;
+    background: none !important;
+    padding: 0 5px !important;
+}
+/* Start Top NAv Area */
+.topNavD .mainmenu ul li button{
+    margin-top: 0px;
+    padding: 5px 50px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #FFF;
+    color: #444;
+    outline: none;
+    transition: all .5s ease-in;
+}
+
+.topNavD .mainmenu ul li:hover button{
+    background-color: #444;
+    color: #fff;
+}
+
+.topNavD .mainmenu ul li a{
+    color: #444;
+}
+
+.topNavD .mainmenu ul li a:hover{
+    color: #868686;
+}
+/* Start Top NAv Area  End*/
+
+/* Men's Fashion Area */
+.mens h4{
+    font-family: cursive;
+    color: #444;
+}
+
+.menCarosel{
+    cursor: pointer;
+    border-radius: 5px;    
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.menCarosel:hover{
+    box-shadow: 2px 2px 10px 2px #ddd;
+}
+
+.menCarosel .zoomimg{
+    width: 255px;
+    height: 255px;
+    transition: all .2s ease;
+}
+
+
+.menCarosel .Image1{
+    background-image: url(images/tshirt1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image2{
+    background-image: url(images/tshirt2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image3{
+    background-image: url(images/tshirt3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image4{
+    background-image: url(images/tshirt4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image5{
+    background-image: url(images/tshirt5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image6{
+    background-image: url(images/tshirt6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image7{
+    background-image: url(images/tshirt7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image8{
+    background-image: url(images/tshirt8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image9{
+    background-image: url(images/tshirt9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image10{
+    background-image: url(images/tshirt10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image11{
+    background-image: url(images/tshirt11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image12{
+    background-image: url(images/tshirt12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image13{
+    background-image: url(images/tshirt13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image14{
+    background-image: url(images/tshirt14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image15{
+    background-image: url(images/tshirt15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image16{
+    background-image: url(images/tshirt16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image17{
+    background-image: url(images/tshirt17.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image18{
+    background-image: url(images/tshirt18.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image19{
+    background-image: url(images/tshirt19.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .Image20{
+    background-image: url(images/tshirt20.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel:hover .zoomimg{
+    background-size: 110%;
+}
+
+.menCarosel .carouselImageFooter{
+    text-align: center;
+}
+
+.menCarosel .carouselImageFooter p{
+    margin-bottom: 0;
+}
+/* Men's Fashion Area End*/
+
+
+/* Women's Fashion Area */
+.menCarosel .sharee1{
+    background-image: url(images/share1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee2{
+    background-image: url(images/sharee2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee3{
+    background-image: url(images/sharee3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee4{
+    background-image: url(images/sharee4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee5{
+    background-image: url(images/sharee5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee6{
+    background-image: url(images/sharee6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee7{
+    background-image: url(images/sharee7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee8{
+    background-image: url(images/sharee8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee9{
+    background-image: url(images/sharee9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee10{
+    background-image: url(images/sharee10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee11{
+    background-image: url(images/sharee11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee12{
+    background-image: url(images/sharee12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee13{
+    background-image: url(images/sharee13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee14{
+    background-image: url(images/sharee14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee15{
+    background-image: url(images/sharee15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee16{
+    background-image: url(images/sharee16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee17{
+    background-image: url(images/sharee17.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee18{
+    background-image: url(images/sharee18.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee19{
+    background-image: url(images/sharee19.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .sharee20{
+    background-image: url(images/sharee20.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+/* Women's Fashion Area End*/
+
+/* Kid's Fashion Area */
+.menCarosel .kp1{
+    background-image: url(images/kp1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp2{
+    background-image: url(images/kp2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp3{
+    background-image: url(images/kp3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp4{
+    background-image: url(images/kp4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp5{
+    background-image: url(images/kp5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp6{
+    background-image: url(images/kp6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp7{
+    background-image: url(images/kp7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp8{
+    background-image: url(images/kp8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp9{
+    background-image: url(images/kp9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp10{
+    background-image: url(images/kp10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp11{
+    background-image: url(images/kp11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp12{
+    background-image: url(images/kp12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp13{
+    background-image: url(images/kp13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp14{
+    background-image: url(images/kp14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp15{
+    background-image: url(images/kp15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp16{
+    background-image: url(images/kp16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp17{
+    background-image: url(images/kp17.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp18{
+    background-image: url(images/kp18.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp19{
+    background-image: url(images/kp19.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .kp20{
+    background-image: url(images/kp20.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+/* Kid's Fashion Area End */
+
+/* Electronics Area */
+.menCarosel .ew1{
+    background-image: url(images/ew1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew2{
+    background-image: url(images/ew2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew3{
+    background-image: url(images/ew3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew4{
+    background-image: url(images/ew4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew5{
+    background-image: url(images/ew5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew6{
+    background-image: url(images/ew6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew7{
+    background-image: url(images/ew7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew8{
+    background-image: url(images/ew8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew9{
+    background-image: url(images/ew9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew10{
+    background-image: url(images/ew10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew11{
+    background-image: url(images/ew11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew12{
+    background-image: url(images/ew12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew13{
+    background-image: url(images/ew13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew14{
+    background-image: url(images/ew14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .ew15{
+    background-image: url(images/ew15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+/* Electronics Area End*/
+
+
+/* Home and living Area */
+.menCarosel .home1{
+    background-image: url(images/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home2{
+    background-image: url(images/home2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home3{
+    background-image: url(images/home3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home4{
+    background-image: url(images/home4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home5{
+    background-image: url(images/home5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home6{
+    background-image: url(images/home6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home7{
+    background-image: url(images/home7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home8{
+    background-image: url(images/home8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home9{
+    background-image: url(images/home9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.menCarosel .home10{
+    background-image: url(images/home10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+/* Home and living Area End*/
+
+/* section Offer Image Area */
+.secimgE img{
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.secimgE img:hover{
+    box-shadow: 2px 2px 10px 5px #bbb;
+}
+
+/* section Offer Image Area */
+
+/* top footer area */
+.tFooterBg {
+    background-color: #f6f6f6;    
+    padding: 20px 0;
+}
+
+
+.topFooterSingleElement{
+    margin-bottom: 20px;
+}
+
+.topFooterSingleElement img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.topFooterSingleElement ul li a, .topFooterSingleElement ul li a i{
+    color: #444;
+    font-size: 13px;
+}
+
+.topFooterSingleElement ul li a i{
+    padding-right: 10px;
+}
+
+.topFooterSingleElement ul li:hover a i{
+    color: #0089ff;
+}
+
+.topFooterSingleElement .socialContact ul li{
+    display: inline-block;
+}
+
+.topFooterSingleElement .socialContact ul li a i{
+    font-size: 24px;
+}
+
+.topFooterSingleElement .footerCartagories {
+    margin-bottom: 20px;
+}
+
+.footerCartagories ul, .footerInfo ul{
+    padding-left: 5px;
+}
+
+.footerCartagories ul li, .footerInfo ul li{
+    transition: all .3s ease-in;
+}
+
+.footerCartagories ul li:hover, .footerInfo ul li:hover{
+    padding-left: 5px;
+}
+
+.footerCartagories ul li a,  .footerInfo ul li a{
+    font-size: 14px;
+}
+
+.footerNewsLatter p{
+    font-size: 16px;
+}
+
+/* top footer area end */
+
+/* main footer area */
+.mainFootBorder{
+    border-top: 1px solid #d2d2d2;
+}
+
+.mainFooterBg{
+    background-color: #f6f6f6;
+}
+
+.mainFooter p{
+    font-size: 16px;
+    color: #444;
+}
+
+.mainFooter p a{
+    color: #55a7ff;
+}
+
+/* main footer area */
